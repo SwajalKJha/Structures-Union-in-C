@@ -1,0 +1,78 @@
+Q1: Write a C program to create a structure named “addition”, with 3 data members, num1,
+num2 and sum of type int.
+Taking user input, initialize the num1 and num2 and then store the result of num1+ num2 in
+the sum data member;
+Q2: Using structure, write a C program to find the area of a given rectangle. Store the
+dimensions of rectangle and calculated area in the structure itself. (User Input);
+(with or without loop)
+Q3: Using array of structure, write a C program to find the area of 3 rectangles. Store the
+dimensions of rectangle and calculated area in the structure itself. (User Input);
+Q4: Using structures in C, write a program to find the area of a given rectangle, and store the
+dimensions and result in the structure data member. Make sure to use another function for
+the calculation of area (passing structure variable to a function).
+(With or without using function calls)
+Q5: Write a C program to create a registratio form for the user, the form should ask the following
+details:
+Name: Age: Gender: City: PinCode:
+Marital Status: Anual Salary:
+Once input is received, display the data to the user.
+Q6: Implement the question 5 with an added feature, wherein at the end, user should be given an
+option to verify the data, in-case user wishes to modify the entered data. If user wishes to
+modify the data it has entered, new modified data should be displayed as output when
+program ends.
+Q7: Using function calls, create a structre variable in one function and return the strucutre
+variable to the caller function, where caller can use the data returned by function to display
+the output.
+Example: main(){
+
+struct data var = function();
+----- code to display var data ----
+}
+struct data function()
+{
+struct data var1;
+--- initialziation code ---
+return var1;
+}
+
+Q8: Using array of structure and loops, write a C program to store radius and area of 10 circles,
+take user input to initialize the circles, (make sure that user can see that for which circle he’s
+entereing the data), at the end display the area of all the circles.
+example:
+
+message: ======= Circle 1 =======
+
+Enter Radius:
+======= Circle 2 =======
+---goes on ---
+
+Q9: Implement Q5 with data of n number of student (based on user input) and display the data at
+the end.
+Example: ./a.out ->
+
+Enter the student number:
+Input: ==== Student 1 data input =====
+
+--------inputs----------
+--------inputs----------
+--------inputs----------
+==== Student 2 data input =====
+--------inputs----------
+--------inputs----------
+--------inputs----------
+
+Output:
+
+==== Student 1 data output=====
+--------inputs----------
+--------inputs----------
+--------inputs----------
+==== Student 2 data output =====
+--------inputs----------
+--------inputs----------
+--------inputs----------
+
+Q10: Implement the Q5, by using dynamic memory allocation for data members “name” and
+“city”.
+
+Hint: pointers will be used in data members for name and city.
